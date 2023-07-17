@@ -1,0 +1,26 @@
+{
+    "name": "igorshinal/task",
+    "description": "Refactoring",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Shinal"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~7.7.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Controller",
+            "src/Controller/Interfaces",
+            "src/Traits",
+            "src/Configs",
+            "tests/Unit"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
